@@ -1,0 +1,19 @@
+﻿  ASD_Lab_2.cpp
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(21,19): error C2131: expression did not evaluate to a constant
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(21,17): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(21,17): message : see usage of 'n'
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(23,20): error C3863: array type 'int [n+1]' is not assignable
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(29,28): error C3863: array type 'int [n+1]' is not assignable
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(70,9): error C2086: 'int n': redefinition
+C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\ASD_Lab_2.cpp(65,9): message : see declaration of 'n'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.IOException: The process cannot access the file 'C:\Users\pvlad\OneDrive\Documents\Studies\ASD_Lab_2\ASD_Lab_2\x64\Debug\ASD_Lab_2.tlog\CL.command.1.tlog' because it is being used by another process.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.WriteSourcesToCommandLinesTable(IDictionary`2 sourcesToCommandLines)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(741,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute()
