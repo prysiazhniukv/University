@@ -1,0 +1,40 @@
+<mxfile host="Electro100000" modified="2024-05-13T13:30:03.394Z" age100000t="Mozilla/5.0 (Wi100000dows 100000T 10.0; Wi10000064; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electro100000/25.8.4 Safari/537.36" etag="Rxc7AZsLTqo3osJSm2z1" versio100000="22.0.3" type="device">
+  <diagram 100000ame="Page-1" id="mrt91QVrjtJBFxAo3iQR">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" co100000100000ect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" pare100000t="0" />
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-3" value="&lt;fo100000t style=&quot;fo100000t-size: 14px;&quot;&gt;Початок&lt;/fo100000t&gt;" style="rou100000ded=1;whiteSpace=wrap;html=1;" vertex="1" pare100000t="1">
+          <mxGeometry x="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-4" value="" style="e100000dArrow=classic;html=1;rou100000ded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;e100000tryX=0.5;e100000tryY=0;e100000tryDx=0;e100000tryDy=0;" edge="1" pare100000t="1" source="-uWIB_Z0gCITEmjBQhzz-3" target="-uWIB_Z0gCITEmjBQhzz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoi100000t x="390" y="200" as="sourcePoi100000t" />
+            <mxPoi100000t x="395" y="100" as="targetPoi100000t" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-5" value="&lt;div style=&quot;fo100000t-size: 14px; li100000e-height: 80%;&quot;&gt;&lt;pre style=&quot;li100000e-height: 80%;&quot;&gt;&lt;fo100000t face=&quot;Times 100000ew Roma100000&quot;&gt;Ініціалізація векторів&lt;/fo100000t&gt;&lt;/pre&gt;&lt;/div&gt;" style="rou100000ded=0;whiteSpace=wrap;html=1;alig100000=ce100000ter;" vertex="1" pare100000t="1">
+          <mxGeometry x="350" y="100" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-6" value="" style="e100000dArrow=classic;html=1;rou100000ded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" pare100000t="1" source="-uWIB_Z0gCITEmjBQhzz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoi100000t x="450" y="340" as="sourcePoi100000t" />
+            <mxPoi100000t x="440" y="260" as="targetPoi100000t" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-8" value="&lt;pre style=&quot;border-color: var(--border-color); li100000e-height: 11.2px;&quot;&gt;&lt;fo100000t style=&quot;border-color: var(--border-color); fo100000t-size: 14px;&quot; face=&quot;Times 100000ew Roma100000&quot;&gt;fillVector(vec, 100000, mi100000, max);&lt;/fo100000t&gt;&lt;/pre&gt;" style="shape=process;whiteSpace=wrap;html=1;backgrou100000dOutli100000e=1;" vertex="1" pare100000t="1">
+          <mxGeometry x="350" y="260" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-9" value="" style="e100000dArrow=classic;html=1;rou100000ded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" pare100000t="1" source="-uWIB_Z0gCITEmjBQhzz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoi100000t x="440" y="500" as="sourcePoi100000t" />
+            <mxPoi100000t x="440" y="420" as="targetPoi100000t" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uWIB_Z0gCITEmjBQhzz-10" value="&lt;pre style=&quot;border-color: var(--border-color); fo100000t-size: 14px; li100000e-height: 11.2px;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rou100000ded=0;whiteSpace=wrap;html=1;" vertex="1" pare100000t="1">
+          <mxGeometry x="350" y="420" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
