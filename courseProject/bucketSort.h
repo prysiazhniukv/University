@@ -30,18 +30,26 @@ void bucketSort(std::vector<T>& arr, unsigned long long& setOps) {
 
     size_t index = 0;
     for (size_t i = 0; i < bucketCount; ++i) {
-        // Insertion Sort within each bucket
-        for (size_t j = 1; j < buckets[i].size(); ++j) {
-            T key = buckets[i][j];
-            int k = j - 1;
+        if (!buckets[i].empty()) {
+            // Apply Counting Sort directly within the bucket
+            T minBucketValue = *std::min_element(buckets[i].begin(), buckets[i].end());
+            T maxBucketValue = *std::max_element(buckets[i].begin(), buckets[i].end());
+            setOps += 2 * (buckets[i].size() - 1);
 
-            while (k >= 0 && buckets[i][k] > key) {
-                buckets[i][k + 1] = buckets[i][k];
+            std::vector<int> count(static_cast<size_t>(maxBucketValue - minBucketValue + 1), 0);
+
+            for (size_t j = 0; j < buckets[i].size(); ++j) {
+                count[static_cast<size_t>(buckets[i][j] - minBucketValue)]++;
                 setOps++;
-                k--;
             }
-            buckets[i][k + 1] = key;
-            setOps++;
+
+            size_t bucketIndex = 0;
+            for (size_t j = 0; j < count.size(); ++j) {
+                while (count[j]-- > 0) {
+                    buckets[i][bucketIndex++] = j + minBucketValue;
+                    setOps++;
+                }
+            }
         }
 
         for (const T& elem : buckets[i]) {
